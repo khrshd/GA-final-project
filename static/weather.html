@@ -1,0 +1,15 @@
+<html>
+<head>
+<link rel="stylesheet" href='/static/style.css' />
+</head>
+<body>
+<h1>Weather for {{ city_name }}</h1>
+{% if weather_data %}
+    <div> 
+        <div> Date-time: {{ weather_data.dt | format_dt }} </div>
+        <div> Forecast: {{ weather_data.weather[0].main}} </div>
+        <div> Description: {{ weather_data.weather[0].description }} </div>
+    </div>
+{% endif %}
+</body>
+</html>

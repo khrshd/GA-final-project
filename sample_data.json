@@ -1,0 +1,40 @@
+{
+    "coord": {
+        "lon": -71.06,
+        "lat": 42.36
+    },
+    "weather": [{
+        "id": 802,
+        "main": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+    }],
+    "base": "stations",
+    "main": {
+        "temp": 300.68,
+        "pressure": 1010,
+        "humidity": 69,
+        "temp_min": 298.71,
+        "temp_max": 302.59
+    },
+    "visibility": 16093,
+    "wind": {
+        "speed": 2.6
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1566485732,
+    "sys": {
+        "type": 1,
+        "id": 3413,
+        "message": 0.0148,
+        "country": "US",
+        "sunrise": 1566467924,
+        "sunset": 1566516962
+    },
+    "timezone": -14400,
+    "id": 4930956,
+    "name": "Boston",
+    "cod": 200
+}
